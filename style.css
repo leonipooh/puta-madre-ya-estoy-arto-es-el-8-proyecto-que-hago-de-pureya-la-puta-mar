@@ -1,0 +1,43 @@
+body {
+    background:linear-gradient(rgb(100,149,237), rgb(157, 237, 100));
+    text-align: center;
+    font-size:50px;
+font-family:"8-bit Arcade In";
+}
+
+.perfil {
+    
+  width: 100%;
+}
+.nav navbar-nav{
+  list-style: none;
+  position:fixed;
+  background: linear-gradient(rgb(132, 100, 237), rgb(100, 149, 237));;
+  width: 100%;
+  margin-top: 0px;
+  top:0px;
+  right: 30px;
+  z-index: 10;
+  cursor:pointer
+}
+.links{
+  display: inline;
+  padding-top: 5px;
+  padding-left: 33px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  font-size: 40px;
+}
+.links:hover{
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#welcome{
+  position: absolute;
+  bottom:0;
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-top:10px ;
+}
